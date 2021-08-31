@@ -1,0 +1,9 @@
+Schedule according to First Come First Serve:-
+Process ID	Arrival Time	Burn Time	Priority	Start Time	Wait Time	Turn Around Time
+1			0				28			3			0			0			28
+4			0				22			1			28			28			50
+2			12				23			6			50			38			61
+5			12				18			2			73			61			79
+3			20				4			4			91			71			75
+Average Waiting Time=39.60
+Average Turn Around Time=58.60
