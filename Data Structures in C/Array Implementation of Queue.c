@@ -45,7 +45,6 @@ void push(queue *q,int element)
         {
             q->capacity++;
             q->arr=(int*)realloc(q->arr,(q->capacity)*sizeof(int));
-            printf("Reallocated\n");
             for(int i=q->capacity-2;i>=q->front;i--)
                 q->arr[i+1]=q->arr[i];
             q->front++;
